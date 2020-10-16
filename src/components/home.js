@@ -67,10 +67,11 @@ class Home extends Component {
 			>
 				SUBMIT
 			</button>
+			<div>
+				{this.renderGames()}
+			</div>
         </div>
-		<div>
-			{this.renderGames()}
-		</div>
+		
       )
     }
 }
