@@ -46,7 +46,7 @@ class Home extends Component {
 		{this.state.games.map((game, i) => (
 			<div key={i}>
 				{game}
-			<div>
+			</div>
 		))}
 	}
 
