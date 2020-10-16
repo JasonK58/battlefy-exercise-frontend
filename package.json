@@ -1,0 +1,45 @@
+{
+  "name": "battlefy-exercise-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "test": "test",
+    "create": "webpack",
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonK58/battlefy-exercise-frontend.git"
+  },
+  "author": "Jason Kolenosky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonK58/battlefy-exercise-frontend/issues"
+  },
+  "homepage": "https://github.com/JasonK58/battlefy-exercise-frontend#readme",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
