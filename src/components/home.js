@@ -46,7 +46,7 @@ class Home extends Component {
 		{this.state.games.map((game, i) => (
 			<div key={i}>
 				{game}
-			</div>
+			<div>
 		))}
 	}
 
@@ -67,10 +67,11 @@ class Home extends Component {
 			>
 				SUBMIT
 			</button>
+			<div>
+				{this.renderGames()}
+			</div>
         </div>
-		<div>
-			{this.renderGames()}
-		</div>
+		
       )
     }
 }
